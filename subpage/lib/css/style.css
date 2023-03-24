@@ -1,0 +1,100 @@
+.fw_b { font-weight: 700; }
+.fw-L { font-weight: 300 !important; }
+/* intro 페이지 */
+.s_visual { position: relative; height: 650px; background: url('../images/s_visual1.jpg') center no-repeat; }
+.s_visual .s_visual_tit { position: absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-align: center; }
+.s_visual .s_visual_tit::before { position: absolute; width: 124px; height: 120px; left: -43px; top: -42px; background: url('../images/mv_txt_bg.png') center no-repeat; background-size: cover; content: ""; }
+.s_visual .s_visual_tit h2 { font-family: 'PyeongChangPeace'; font-weight: 300; font-size: 65px; color: #8a7c79; }
+.s_visual .s_visual_tit p { margin-top: 40px; font-family: 'Marcellus', serif; font-size: 36px; color: #8a7c79; opacity: .5; }
+
+.s_visual .s_v_menu { position: absolute; display: flex; max-width: 1760px; width: 100%; right: 0; bottom: 0; background-color: #FFF; }
+.s_visual .s_v_menu > a { display: block; width: 80px; height: 80px; background: #b08069 url('../images/ico_home.png') center center no-repeat; background-size: cover; }
+.s_visual .s_v_menu > ul { display: flex; }
+.s_visual .s_v_menu > ul > li.on > a { font-weight: 500; color: #b08069; }
+.s_visual .s_v_menu > ul a { padding: 0 25px; line-height: 80px; font-size: 18px; color: #8a7c79; }
+
+.s_content_wrap { padding: 130px 0; }
+.s_sec1 { position: relative; padding-bottom:240px;}
+.s_sec1::after { position: absolute; width: 100%; height: 50%; bottom: 0; left: 0; background: url('../images/visionBG.png') no-repeat; z-index: -1; content: ""; }
+.hori_layout2 { display: flex; }
+.hori_layout2 dt { width: 400px; }
+.hori_layout2 dt .tit p { margin-bottom:9px; font-size: 18px; color: #8a7c79; }
+.hori_layout2 dt .tit h2 { font-family: 'Marcellus', serif; font-weight: 400; font-size: 70px; color: #444; line-height: 1em;}
+
+.hori_layout2 dd { width: calc(100% - 400px); }
+.hori_layout2 dd .s_list_st1 { display: flex; }
+.hori_layout2 dd .s_list_st1 > li { position: relative; width: 33.3333%; padding:48px 32px; background-color: #FFF; border:1px solid #ead9cb; border-radius: 0 35px; }
+.hori_layout2 dd .s_list_st1 > li:nth-of-type(odd) { top: 80px; }
+.hori_layout2 dd .s_list_st1 > li:not(:last-child) { margin-right: 30px; }
+.hori_layout2 dd .s_list_st1 li .img_box { padding:8px 0 32px; text-align: center; }
+.hori_layout2 dd .s_list_st1 li .txt_top { text-align: center; font-size: 18px; }
+.hori_layout2 dd .s_list_st1 li .txt_top h5 {  font-size: 32px; color: #c69272; font-family: 'Marcellus', serif; font-weight: 400; }
+.hori_layout2 dd .s_list_st1 li .txt_top p { margin: 15px 0 0; padding-top: 0; font-weight: 500; font-size: 18px; color: #947d79; }
+.hori_layout2 dd .s_list_st1 li .txt_bot { position: relative; margin-top: 25px; padding:25px 8px 0; background: url('../images/dotline.png') repeat-x top; text-align: center; font-size: 17px; color:#8a7c79; }
+.hori_layout2 dd .s_list_st1 li .txt_bot p { word-break: keep-all; line-height: 1.5; color:#8a7c79; }
+
+.s_sec2 { padding:100px 0; }
+.s_sec2 .hori_layout2 dd .s_list_st2 { display: flex; }
+.s_sec2 .hori_layout2 dd .s_list_st2 li { width: 50%; border:1px solid #e9e3e1; }
+.s_sec2 .hori_layout2 dd .s_list_st2 li:first-child { margin-right: 20px; }
+
+.s_sec3 { padding:100px 0; background: #faf7f2; }
+
+.s_sec4 { padding:100px 0; }
+.s_sec4 .tit { margin-bottom: 24px; font-weight: 600; font-size: 24px; color: #90726c; }
+.s_sec4 ul { display: flex; flex-wrap: wrap; }
+.s_sec4 ul li { position: relative; width: 16.6666%; border: 1px solid #e9e3e1; margin-left: -1px; margin-top: -1px; }
+.s_sec4 ul li .name {  padding: 16px 0; background: #fbf9f5; text-align: center; color: #8a7c79; }
+
+/* edu page */
+.s_section { padding: 96px 0; }
+.s_section h5 { font-size: 32px; font-weight: 500; color: #7a6b68; margin-bottom: 22px; }
+.edu_top { position: relative; padding-bottom:76px; overflow: hidden; background: url('../images/cont_top_deco.png') right 10% no-repeat; } 
+
+.edu_top::after { width: 50%; height: 80%; background: #faf7f2; position: absolute; left: 0; bottom: 0; border-radius: 0 80px 0 0; z-index: -1; content:''; }
+.edu_top .hori_layout { align-items: center; }
+.edu_top .hori_layout .left ,
+.edu_top .hori_layout .right { width:50%; }
+.edu_top .hori_layout .left { position: relative; text-align: center; }
+.edu_top .hori_layout .right { padding:32px 0 32px 96px; }
+.edu_top .hori_layout .right .tit { position: relative; margin-bottom:53px; padding-bottom:53px; }
+.edu_top .hori_layout .right .tit::after { width: 160%; height: 1px; background: #e7d9d2; position: absolute; left: -35%; bottom: 0; z-index: 2; content: '';  }
+.edu_top .hori_layout .right .tit p { margin-bottom: 15px; font-size: 22px; color: #8a7c79; font-family: 'Marcellus'; letter-spacing: 0; }
+.edu_top .hori_layout .right .tit h3 { font-size: 50px; font-weight: 300; color: #c69272; font-family: 'PyeongChangPeace'; line-height: 1.2em; } 
+.edu_top .hori_layout .right .txt .sub_tit { margin-bottom: 15px; font-size: 32px; font-weight: 500; color: #7a6b68; } 
+.edu_top .hori_layout .right .txt .sub_txt { font-size:19px; line-height:38px; color: #8a7c79; } 
+
+.s_list_st3 { display: flex; gap:20px; }
+.s_list_st3 li { position: relative; width: calc((100% - 40px) / 3); height: 268px; padding:48px 40px; background: #fbf9f5; overflow: hidden; counter-increment: number; }
+.s_list_st3 li p { font-size: 20px; line-height: 30px; color: #8a7c79; }
+.s_list_st3 li:after { position: absolute; right: 6px; bottom: 0; font-family: 'PyeongChangPeace'; font-weight: 700; font-style: italic; color: #f0e9e1; font-size: 100px; content: counter(number, decimal-leading-zero); }
+
+.s_list_st4 { display: flex; flex-wrap: wrap; gap: 20px; }
+.s_list_st4 li { display: flex; width: calc((100% - 40px) / 3); align-items: center; border: 1px solid #ead9cb; border-radius: 10px; overflow: hidden; }
+.s_list_st4 li::before { display: block; width: 80px; height: 80px; background: #b08069 url('../images/ico_check.png') center center no-repeat; content:""; }
+.s_list_st4 li > p { padding-left:30px; font-size:20px; color: #8a7c79; }
+
+.how_to { padding:76px 96px; background: url('../images/howtoBG.png') center/cover no-repeat; }
+.how_to .tit { text-align: center; }
+.how_to .tit .sub_tit { font-size: 22px; color: #eaa57b; font-family: 'Marcellus'; }
+.how_to .tit h4 { margin: 12px 0 20px; font-size: 40px; color:#FFF; line-height: 1.2em; font-family: 'PyeongChangPeace'; font-weight: 300; }
+.how_to .tit p { color:#FFF;}
+
+.s_list_st5 { display: flex; margin-top:80px; justify-content: center; gap:20px; }
+.s_list_st5 li { max-width: 200px; max-height: 200px; width: calc((100% - 40px) / 5); padding:16px 16px 20px; border:1px solid #FFF; border-radius: 0 35px; text-align: center; }
+.s_list_st5 li .img_box { padding:19px 0 24px; }
+.s_list_st5 li p { font-size: 20px; line-height: 24px; padding: 20px 0 0; font-weight: 500; background: url(../images/dotline.png) repeat-x; color:#FFF; }
+
+.hori_layout2 .tit2 h2 { font-size: 32px; font-weight: 500; color: #7a6b68; margin-bottom: 38px; line-height: 1.2;}
+.hori_layout2 .tit2 h2 span { color: #7a6b68; }
+.hori_layout2 .tit2 p { font-size: 17px; line-height: 34px; color: #8a7c79; }
+
+.s_section .btn_st1 { margin-top:50px; background: #806b60; color:#FFF; }
+.s_section .btn_st1::after { background: url('../../../lib/images/arrow_more.png') !important; }
+.s_section .btn_st1:hover { background: #b08069; }
+
+.s_list_st6 { display: flex; gap:20px; }
+.s_list_st6 li { position: relative; width: calc((100% - 40px) / 4); counter-increment: number; }
+.s_list_st6 li::after { position: absolute; width: 100%; bottom: 0; left: 0; transform: translateY(50%); font-family: 'PyeongChangPeace'; font-weight: 700; font-style: italic; text-align: center; color: #ece4d9; font-size: 50px; content: counter(number, decimal-leading-zero); }
+.s_list_st6 li img { display: block;}
+.s_list_st6 li p { padding: 40px 20px; line-height: 1; font-size: 20px; font-weight: 600; text-align: center; border: 1px solid #e9e3e1; color: #8a7c79; }
