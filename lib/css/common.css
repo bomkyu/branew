@@ -209,7 +209,7 @@ header .header_sns li { margin-left:20px; }
 .sec2 .right .slide_box { left: unset; right: 0; }
 .sec2 .right .slide_box p { position: absolute; width: 100%; top:0; left: -15px; font-family: 'Marcellus', serif; font-size: 26px; color: #b08069; transform: rotate( 90deg ); transform-origin: top left; }
 
-.sec3 { position: relative; width: 1920px; padding:120px 0; overflow-x: hidden; }
+.sec3 { position: relative; padding:120px 0; overflow-x: hidden; }
 .sec3 .main_tit { position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); }
 .sec3 .hori_layout { justify-content: space-between; }
 .sec3 .left { padding-left: 160px; }
@@ -269,3 +269,8 @@ footer .right .f_sns { display: flex; margin-top: 30px; }
 footer .right .f_sns li {  margin-right: 20px; }
 footer .right .f_sns li a { display: flex; align-items: center; font-family: 'Marcellus', serif; font-size: 16px; color: rgba(255,255,255,0.2); }
 footer .right .f_sns li a > img { margin-right: 5px; }
+
+
+@media all and (max-width:1280px){
+    header { display: none; }
+}
